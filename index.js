@@ -5,7 +5,7 @@ let inputEl = document.getElementById('input-el')
 let button = document.getElementById('input-btn')
 
 button.addEventListener('click', () => {
-  myLeads.push('www...')
+  myLeads.push(inputEl.value)
   renderLeads()
 })
 
